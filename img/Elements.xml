@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <Module Name="Logo" >
+      <File Path="img\procad.PNG" Url="SiteAssets/procad/procad.png" IgnoreIfAlreadyExists="TRUE" />
+    </Module>
+
+  </Elements>

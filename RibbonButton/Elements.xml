@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <CustomAction
+    Id="Procad.FixedHeader"
+    Location="CommandUI.Ribbon"
+    RegistrationId="100"
+    RegistrationType="List"
+    Title="Procad Fixed Header">
+    <CommandUIExtension>
+      <CommandUIDefinitions>
+        <CommandUIDefinition
+          Location="Ribbon.List.Settings.Controls._children">
+          <Button Id="Ribbon.Library.Share.NewRibbonButton"
+            Command="ActivateDelegateControl"
+            Image16by16=""
+            Image32by32="~SiteCollection/SiteAssets/procad/procad.png"
+            LabelText="Procad Fixed Header"
+            TemplateAlias="o2" />
+        </CommandUIDefinition>
+      </CommandUIDefinitions>
+      <CommandUIHandlers>
+        <CommandUIHandler
+          Command="ActivateDelegateControl"
+          CommandAction="javascript:RibbonToogle();" />
+      </CommandUIHandlers>
+    </CommandUIExtension>
+  </CustomAction>
+  <CustomAction
+    Id="Ribbon.Library.Actions.NewButton.Script"
+    ScriptSrc="~SiteCollection/SiteAssets/procad/procad.js"
+  Location="ScriptLink"
+  Sequence="10">
+  </CustomAction>
+  <CustomAction
+    Title="Toggle FixedHeader"
+    ScriptSrc="~SiteCollection/SiteAssets/procad/jquery.js"
+    Location="ScriptLink"
+    Sequence="9">
+  </CustomAction>
+  
+</Elements>

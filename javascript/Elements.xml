@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="javascript" >
+    <File Path="javascript\procad.js" Url="SiteAssets/procad/procad.js" IgnoreIfAlreadyExists="TRUE" />
+    <File Path="javascript\jquery.js" Url="SiteAssets/procad/jquery.js" IgnoreIfAlreadyExists="TRUE" />
+    <File Path="javascript\procad.css" Url="SiteAssets/procad/procad.css" IgnoreIfAlreadyExists="TRUE" />
+  </Module>
+</Elements>

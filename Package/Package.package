@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="4ebdb258-7ade-4fd0-970b-6145b4c1361a" solutionId="4ebdb258-7ade-4fd0-970b-6145b4c1361a" resetWebServer="false" name="Procad" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="0267e143-0ffe-4a00-afb3-6e6511a26a40" />
+  </features>
+</package>
